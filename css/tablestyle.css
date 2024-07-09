@@ -1,0 +1,23 @@
+table{
+    border: 1px solid  rgb(83, 81, 78);
+    border-collapse: collapse;
+    width: 80%;
+}
+td{
+    border: 1px solid  rgb(83, 81, 78);
+    padding: 5px;
+    text-align: left;
+}
+th{
+    background-color:  rgb(160, 152, 149);
+    color: beige;
+    border: 1px solid  rgb(83, 81, 78);
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background-color: rgb(194, 179, 179);
+}
+tr:hover{
+    background-color: rgb(219, 186, 174);
+}
